@@ -1,0 +1,823 @@
+body {
+    font-family: "Roboto";
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 13px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    color: white;
+    padding-top: 20px;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar b {
+    font-family: 'Marmelad', sans-serif;
+}
+
+.navbar a {
+    font-family: 'Marmelad', sans-serif;
+}
+
+.jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    border-radius: 6px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    color: inherit;
+    background-color: #d0c7c7;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+.jumbotron p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+img {
+    border: none;
+}
+
+.float {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    transition: 0.3s;
+    padding-bottom: 30px;
+}
+
+.container1 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.top {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.smartphone {
+    position: relative;
+    height: 435px;
+    width: 820px;
+    margin: auto;
+    border: 16px black solid;
+    border-left-width: 60px;
+    border-right-width: 60px;
+    border-radius: 36px;
+}
+
+.smartphone:before {
+    content: '';
+    display: block;
+    height: 60px;
+    width: 5px;
+    position: absolute;
+    left: -5%;
+    bottom: 135px;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+}
+
+.smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: -9.5%;
+    bottom: 170px;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 50%;
+}
+
+.utvideo {
+    width: 700px;
+    height: 405px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.js, .html, .java, .css, .php, .py, .ruby, .perl, .sql, .cs, .ai, .android, .ani, .rob, .vr, .cloud, .bd, .iot, .dl, .ml, .net, .kotlin, .boot, .jq, .pro {
+    text-align: center;
+    padding-top: 30px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.js a {
+    color: darkgoldenrod;
+}
+
+.html a {
+    color: #7268b0;
+}
+
+.java a {
+    color: cadetblue;
+}
+
+.css a {
+    color: deepskyblue;
+}
+
+.php a {
+    color: dodgerblue;
+}
+
+.py a {
+    color: deepskyblue;
+}
+
+.ruby a {
+    color: darkorange;
+}
+
+.perl a {
+    color: darkslateblue;
+}
+
+.sql a {
+    color: yellowgreen;
+}
+
+.cs a {
+    color: darkorchid;
+}
+
+.ai a {
+    color: #FF2E63;
+}
+
+.android a {
+    color: #6ab344;
+}
+
+.ani a {
+    color: gold;
+}
+
+.rob a {
+    color: #F05941
+}
+
+.dl a {
+    color: #1E6262;
+}
+
+.bd a {
+    color: #1FAB89;
+}
+
+.ml a {
+    color: black;
+}
+
+.cloud a {
+    color: #EB76FF
+}
+
+.iot a {
+    color: red;
+}
+
+.net a {
+    color: #590D82;
+}
+
+.kotlin a {
+    color: #876822;
+}
+
+.boot a {
+    color: #72323F;
+}
+
+.jq a {
+    color: #F75940;
+}
+
+.pro a {
+    color: white;
+}
+
+.w3-row .card:hover {
+    box-shadow: 0 14px 30px rgba(14, 21, 47, 0.6);
+}
+
+.container {
+    margin-top: 40px;
+    padding: 0.01rem 16px;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.rw {
+    padding-top: 40px;
+}
+
+.w3-row {
+    margin-top: 0px;
+}
+
+.w3-col {
+    margin-right: 30px;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+
+.col-sm-4 {
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.jq-h4 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.kotlin-h4 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 32px;
+}
+
+.java-h4 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.boot-h4 {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+
+.ft {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 40px;
+}
+
+.ft p {
+    font-size: 25px;
+}
+
+.mid {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.shrink:hover {
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.shake:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.heart {
+    fill: red;
+    position: relative;
+    top: 5px;
+    width: 22px;
+    animation: pulse 1s ease infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.wish {
+    color: #9e9e9e;
+}
+
+.crush {
+    color: #ff5722;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .ml, .ai p {
+        font-size:1.1rem;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .navbar {
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 0;
+        border: 0;
+        font-size: 13px !important;
+        letter-spacing: 2px;
+        opacity: 0.9;
+        display: flex;
+    }
+
+    .navbar h1 {
+        color: white;
+        font-size: 22px;
+    }
+
+    .link {
+        padding-left: 130px;
+    }
+
+    .aii h1 {
+        padding-right: 50px;
+    }
+
+    .cssi h1 {
+        padding-left: 65px;
+    }
+
+    .htmli h1 {
+        padding-left: 55px;
+    }
+
+    .jsi h1 {
+        padding-left: 25px;
+    }
+
+    .jqi h1 {
+        padding-left: 45px;
+    }
+
+    .booti h1 {
+        padding-left: 30px;
+    }
+
+    .javai h1 {
+        padding-left: 55px;
+    }
+
+    .kotlini h1 {
+        padding-left: 55px;
+    }
+
+    .pyi h1 {
+        padding-left: 40px;
+    }
+
+    .phpi h1 {
+        padding-left: 60px;
+    }
+
+    .sqli h1 {
+        padding-left: 60px;
+    }
+
+    .rubyi h1 {
+        padding-left: 55px;
+    }
+
+    .neti h1 {
+        padding-left: 20px;
+    }
+
+    .androidi h1 {
+        padding-left: 35px;
+    }
+
+    .anii h1 {
+        padding-left: 20px;
+    }
+
+    .bdi h1 {
+        padding-left: 30px;
+    }
+
+    .ioti h1 {
+        padding-left: 65px;
+    }
+
+    .aii h1 {
+        padding-right: 50px;
+    }
+
+    .navbar-brand {
+        color: white;
+        padding-top: 14px;
+    }
+
+    .top {
+        margin-top: 60px;
+    }
+
+    .smartphone {
+        position: relative;
+        height: 500px;
+        width: 320px;
+        margin: auto;
+        border: 16px black solid;
+        border-top-width: 60px;
+        border-bottom-width: 60px;
+        border-radius: 36px;
+    }
+
+    .smartphone:before {
+        content: '';
+        display: block;
+        height: 5px;
+        width: 60px;
+        position: absolute;
+        left: 50%;
+        bottom: 400px;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 10px;
+    }
+
+    .smartphone:after {
+        content: '';
+        display: block;
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        right: 40%;
+        bottom: -17%;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 50%;
+    }
+
+    .utvideo {
+        width: 290px;
+        height: 400px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+    }
+
+    .w3-col {
+        margin-right: 10px;
+        padding-bottom: 12px;
+    }
+
+    .w3-col a {
+        font-size: 1.2rem;
+    }
+
+    .w3-row h3 {
+        font-size: 1.3rem;
+        font-weight: 450
+    }
+
+    .ft {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        padding: 40px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    .container .jumbotron {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .text-centre {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .col-sm-4 .card {
+        padding-bottom: 55px;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .w3-row {
+        margin-top: 10px;
+    }
+
+    .w3-col {
+        margin-top: 10px;
+    }
+
+    .card {
+        padding-bottom: 10px;
+    }
+
+    a {
+        font-size: 1.3rem;
+    }
+
+    .ft {
+        padding: 20px;
+        font-size: 32px;
+    }
+
+    .js, .html, .java, .css, .php, .py, .ruby, .perl, .sql, .cs, .ai, .android, .ani, .rob, .vr, .cloud, .bd, .iot, .ml, .net, .kotlin, .boot, .jq {
+        text-align: center;
+        padding-top: 20px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .jq-h4, .kotlin-h4, .java-h4, .boot-h4 {
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .boot-img {
+        vertical-align: middle;
+        width: 85%;
+    }
+
+    .top {
+        margin-top: 100px;
+    }
+
+    .smartphone {
+        position: relative;
+        height: 350px;
+        width: 570px;
+        margin: auto;
+        border: 16px black solid;
+        border-left-width: 60px;
+        border-right-width: 60px;
+        border-radius: 36px;
+    }
+
+    .smartphone:before {
+        content: '';
+        display: block;
+        height: 60px;
+        width: 5px;
+        position: absolute;
+        left: -5%;
+        bottom: 135px;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 10px;
+    }
+
+    .smartphone:after {
+        content: '';
+        display: block;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: -11%;
+        bottom: 150px;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 50%;
+    }
+
+    .utvideo {
+        width: 570px;
+        height: 350px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 600px)and (max-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        font-family: Montserrat, sans-serif;
+        margin-bottom: 0;
+        border: 0;
+        font-size: 13px !important;
+        letter-spacing: 2px;
+        opacity: 0.9;
+        display: flex;
+    }
+
+    .navbar h1 {
+        color: white;
+        font-size: 30px;
+        padding-left: 180px;
+    }
+
+    .jumbotron p {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+
+    .land {
+        margin-right: -15px;
+        margin-left: -15px;
+        display: flex;
+    }
+
+    .container .jumbotron {
+        padding-right: 1px;
+        padding-left: 1px;
+        border-radius: 6px;
+    }
+
+    .card {
+        box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+        transition: 0.3s;
+        margin-right: 70px;
+    }
+
+    .top {
+        margin-top: 110px;
+    }
+
+    .smartphone {
+        position: relative;
+        height: 350px;
+        width: 610px;
+        margin: auto;
+        border: 16px black solid;
+        border-left-width: 60px;
+        border-right-width: 60px;
+        border-radius: 36px;
+        margin-bottom: 50px;
+    }
+
+    .smartphone:before {
+        content: '';
+        display: block;
+        height: 60px;
+        width: 5px;
+        position: absolute;
+        left: -5%;
+        bottom: 110px;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 10px;
+    }
+
+    .smartphone:after {
+        content: '';
+        display: block;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: -13%;
+        bottom: 130px;
+        transform: translate(-50%, -50%);
+        background: white;
+        border-radius: 50%;
+    }
+
+    .utvideo {
+        width: 490px;
+        height: 318px;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+    }
+
+    .w3-col {
+        margin-right: 10px;
+    }
+
+    .w3-col a {
+        font-size: 1rem;
+    }
+
+    .w3-row h3 {
+        font-size: 1.3rem;
+        font-weight: 450
+    }
+
+    .ft {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        padding: 40px;
+        font-size: 30px;
+    }
+
+    .link {
+        padding-left: 550px;
+    }
+
+    .pro-con {
+        margin-top: 50px;
+    }
+}
